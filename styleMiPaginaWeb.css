@@ -45,8 +45,13 @@ header {
 
 #hero .informacion-general {
     position: absolute;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     left: 0;
+    display: flex;
+    width: 100%;
+    color: #748E63;
+    padding: 0px 50px;
 }
 
 #MiFoto {
@@ -55,5 +60,17 @@ header {
 
 #hero .informacion-general #MiFoto img {
     border-radius: 100%;
-
 }
+
+#hero .informacion-general .informacion {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#hero .informacion-general .informacion span {
+    display: inline-block;
+    color: #99B080;
+    margin-bottom: 70px;
+}
+
+/*Estilos del main*/
