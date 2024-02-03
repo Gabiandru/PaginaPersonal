@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Acá tengo los estilos generales*/ 
+
+.imagenes-todas {
+    display: flex;
+}
+
+.imagenes-todas img {
+    width: 100%;
+}
+
+/*Aca tengo los estilos del header*/ 
+
+header {
+    background: #F9B572;
+    padding: 10px 50px;
+}
+
+#logo {
+    width: 50px;
+}
